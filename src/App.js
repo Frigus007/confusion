@@ -14,7 +14,7 @@ class App extends Component{
   }
   render(){
     return(
-      <div>
+      <div className="App">
         <Navbar dark color="primary">
         <div className="container">
         <NavbarBrand href='/'>Restorent</NavbarBrand>
@@ -26,3 +26,4 @@ class App extends Component{
   }
 
 }
+export default App;
